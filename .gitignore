@@ -1,0 +1,24 @@
+# Output from running a style with real details.
+# Every script writes to a folder called "out" unless told otherwise.
+# A real print carries real details, and its card explains how to read it,
+# so none of that belongs in a public repo. Only the "examples" folders,
+# made from placeholder details, are tracked.
+out/
+output/
+private/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
