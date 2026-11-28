@@ -7,8 +7,11 @@ Scripts that turn a few personal details into a print. Each art style lives in i
 | Style | What it makes |
 |---|---|
 | [growth-rings](styles/growth-rings/) | A birth print. Wavy growth rings built from a name, date, time, weight and place, with a message hidden in a ring of glyphs and a sealed card that explains how to read it. |
+| [patchwork](styles/patchwork/) | A birth quilt. A patchwork of round shapes in three inks, one patch for each letter of a message of up to 50 words, keyed by the name, date, time and weight, with a sealed card that explains how to read it. |
 
 ![Growth rings, made from placeholder details](styles/growth-rings/examples/oscar_preview.png)
+
+![Patchwork, made from placeholder details](styles/patchwork/examples/oscar_preview.png)
 
 ## Layout
 
@@ -16,6 +19,10 @@ Scripts that turn a few personal details into a print. Each art style lives in i
 styles/
   growth-rings/
     birthprint.py     the script
+    README.md         how to run it
+    examples/         output made from placeholder details
+  patchwork/
+    quiltprint.py     the script
     README.md         how to run it
     examples/         output made from placeholder details
 ```
